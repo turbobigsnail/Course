@@ -5,7 +5,7 @@ public class Employee {
     private double salary;
     private String employeeName;
     private int department;
-    private long id;
+    private final long id;
 
     public Employee(double salary, String employeeName, int department) {
         this.salary = salary;
